@@ -1,0 +1,9 @@
+.doctor img{
+    height: 600px;
+    width: 600px;
+    margin: auto;
+}
+.button{
+    padding: 7px;
+    border-radius: 5px;
+}

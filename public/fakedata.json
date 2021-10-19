@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Allergic Issue",
+        "description": "Common symptoms of an allergic reaction include: sneezing and an itchy, runny or blocked nose (allergic rhinitis) itchy, red, watering eyes (conjunctivitis) wheezing.",
+        "id": 1,
+        "image": "https://static.scientificamerican.com/sciam/cache/file/C5251BC6-6973-45FE-A28E89800E7F1C16_source.jpg?w=590&h=800&C2BE29EA-6BAB-4D2E-905DC30F641CF6EB"
+    },
+    {
+        "name": "Heart Dieases",
+        "description": "There are many types of heart disease, and each one has its own symptoms and treatment. For some, lifestyle changes and medicine can make a huge difference in improving your health.",
+        "id": 2,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR-HRdpSXy4K55aqaYy1OmdFH0zKHrWUQKLA&usqp=CAU"
+    },
+    {
+        "name": "Cancer",
+        "description": "Cancer is a group of diseases involving abnormal cell growth with the potential to invade or spread to other parts of the body. These contrast with benign tumors, which do not spread.",
+        "id": 3,
+        "image": "https://images.theconversation.com/files/96974/original/image-20151001-23105-1d8k0av.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+    },
+    {
+        "name": "Cholera",
+        "description": "Cholera is an acute, diarrheal illness caused by infection of the intestine with the toxigenic bacterium Vibrio cholerae serogroup O1 or O139. An estimated 2.9 million.",
+        "id": 4,
+        "image": "https://centraldcclinic.com/wp-content/uploads/2015/09/cholera.jpg"
+    },
+    {
+        "name": "Dengue",
+        "description": "Without treatment, the virus can cause damage to blood and lymph vessels and lead to dengue hemorrhagic fever, which is marked by difficulty breathing, bruising and bleeding.",
+        "id": 5,
+        "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202108/dengue_3.jpg?dH0g1A29vZOnL8ORRSZ7zABaV94xQ1yB&size=770:433"
+    },
+    {
+        "name": "Anthrax",
+        "description": "Anthrax is a serious infectious disease caused by gram-positive, rod-shaped bacteria known as Bacillus anthracis. Anthrax can be found naturally in soil and commonly..",
+        "id": 6,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr6VibeQ2tqy6nFo2m98PhBSuS_33vgnApBeASZxY0wgTsrswKyiFW-mSk1sgB9cLfGqA&usqp=CAU"
+    }
+]
