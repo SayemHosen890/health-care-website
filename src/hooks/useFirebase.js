@@ -6,7 +6,7 @@ initializeAuthentication();
 
 
 const useFirebase = () => {
-    const [users, setUsers] = useState({})
+    const [user, setUsers] = useState({})
     const auth = getAuth();
 
     const signInUsingGoogle = () => {
@@ -32,12 +32,12 @@ const useFirebase = () => {
     const logOut = () => {
         signOut(auth)
             .then(() => {
-
+                setUsers({})
             })
     }
 
     return {
-        users,
+        user,
         signInUsingGoogle,
         logOut
     }

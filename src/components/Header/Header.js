@@ -19,14 +19,21 @@ const Header = () => {
                         <Nav.Link as={HashLink} to="/home#services">Services</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#doctors">Doctors</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#contact">Contact</Nav.Link>
-                        <Link to="/login">Login</Link>
-                        {/* <Nav.Link as={HashLink} to="/register">Register</Nav.Link> */}
+                        {
+                            user.email ?
+                                <button className="rounded" onClick={logOut}>Logout</button>
+                                :
+                                <Nav.Link as={HashLink} to="/login">Login</Nav.Link>
+                        }
+                        {/* <Nav.Link as={HashLink} to="/home#login">login</Nav.Link> */}
+                        {/* <Link to="/login">Login</Link> */}
                         {/* {user?.email ?
-                            <Button variant="light">Logout</Button> :
-                            <Nav.Link as={Link} to="/login">Login</Nav.Link>}
-                        <Navbar.Text>
-                            Signed in as: <a href="#login">{user?.displayName}</a>
-                        </Navbar.Text> */}
+                            <Button>Logout</Button> :
+                            <Link to="/login">Login</Link>
+                        } */}
+                        <Navbar.Text className="text-dark">
+                            <small>  Signed in as</small>: <a href="#login" className="text-dark">{user?.displayName}</a>
+                        </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>
                 {/* <Container>
@@ -52,3 +59,4 @@ const Header = () => {
 };
 
 export default Header;
+
