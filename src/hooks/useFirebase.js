@@ -11,10 +11,10 @@ const useFirebase = () => {
 
     const signInUsingGoogle = () => {
         const googleProvider = new GoogleAuthProvider();
-        signInWithPopup(auth, googleProvider)
-            .then((result) => {
-                setUsers(result.user)
-            })
+        return signInWithPopup(auth, googleProvider)
+        // ((result) => {
+        //     setUsers(result.user)
+        // })
     }
 
     useEffect(() => {

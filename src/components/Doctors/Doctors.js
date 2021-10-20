@@ -33,7 +33,7 @@ const Doctors = () => {
                     </div>
                     <div className="col">
                         <div className="h-100 p-2">
-                            <img src="https://thumbs.dreamstime.com/b/asia-woman-doctor-isolated-white-38652576.jpg" className="card-img-top" alt="..." />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHT-GSJV3tH5XGkcvIYXagHA2aN2T76FWx0Q&usqp=CAU" className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Antenio Marus</h5>
                                 <p className="card-text">Surgeon</p>
@@ -45,7 +45,7 @@ const Doctors = () => {
                     </div>
                     <div className="col">
                         <div className="h-100 p-2">
-                            <img src="https://thumbs.dreamstime.com/b/asia-male-doctor-portrait-isolated-white-40941977.jpg" className="card-img-top" alt="..." />
+                            <img src="https://www.medzul.com/uploads/doctor/1594436374_Dr.%20Mukesh%20Pandey%20Medzul%20health.png" className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Carlous Sheu</h5>
                                 <p className="card-text">Cardiologist</p>

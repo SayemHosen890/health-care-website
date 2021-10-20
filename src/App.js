@@ -5,14 +5,13 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import NotFound from './components/NotFound/NotFound';
 import Services from './components/Services/Services';
-// import Details from './components/Details/Details';
 import Doctors from './components/Doctors/Doctors';
 import Contact from './components/Contact/Contact';
 import AuthProvider from './context/AuthProvider';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
-// import Login from './components/Login/Login';
+import Detail from './components/Detail/Detail';
 
 function App() {
   return (
@@ -33,14 +32,17 @@ function App() {
             <Route path="/doctors">
               <Doctors></Doctors>
             </Route>
-            <Route path='/login'>
+            <Route exact path='/login'>
               <Login></Login>
             </Route>
             <Route path='/register'>
               <Register></Register>
             </Route>
-            <PrivateRoute path="/contact">
+            <Route path="/contact">
               <Contact></Contact>
+            </Route>
+            <PrivateRoute path="/detail/:detailId">
+              <Detail></Detail>
             </PrivateRoute>
             <Route exact path="*">
               <NotFound></NotFound>

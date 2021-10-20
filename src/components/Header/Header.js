@@ -10,9 +10,9 @@ const Header = () => {
     const { user, logOut } = useAuth();
     return (
         <>
-            <Navbar variant="dark" sticky="top" className="header">
+            <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top" className="header">
                 <Container>
-                    <img src={logo} alt="" />
+                    <img className="img-fluid" src={logo} alt="" />
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>

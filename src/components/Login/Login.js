@@ -1,14 +1,4 @@
-/*import React from 'react';
 
-const Login = () => {
-    return (
-        <div>
-            <h2>login form</h2>
-        </div>
-    );
-};
-
-export default Login;*/
 import React from 'react';
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
@@ -16,18 +6,18 @@ import useAuth from '../../hooks/useAuth';
 import './Login.css';
 
 const Login = () => {
-    const { user, signInUsingGoogle } = useAuth();
+    const { signInUsingGoogle } = useAuth();
 
     const location = useLocation();
-    console.log('came', location.state?.from);
-    // const history = useHistory();
-    // const redirect_uri = location.state?.from || '/services';
+    // console.log('came', location.state?.from);
+    const history = useHistory();
+    const redirect_uri = location.state?.from || '/home';
 
 
     const handleGoogleLogin = () => {
         signInUsingGoogle()
             .then(result => {
-                // history.push(redirect_uri);
+                history.push(redirect_uri);
                 const user = result.user;
                 console.log(user);
             })
